@@ -1,4 +1,4 @@
-#the zaft v 0.0
+#the zaft v 0.1
 
 echo "
 ╭━━━━┳╮╱╱╱╱╱╭━━━━┳━━━┳━━━┳━━━━╮
@@ -9,7 +9,7 @@ echo "
 ╱╱╰╯╱╰╯╰┻━━╯╰━━━━┻╯╱╰┻╯╱╱╱╱╰╯
 ";
 
-echo "v 0.0 - by amzmohammad";
+echo "v 0.1 - by soloveloper (AmzMohammad)";
 
 echo "CMD : $1"
 echo "DIR : $2";
@@ -42,6 +42,10 @@ then
        #mv -i *."$exti" ${!var}
        rm *."$exti"
    done
+elif [ $1 == "classify"  ]
+then
+   cd $2
+   classifier
 fi
 
 
