@@ -1,5 +1,5 @@
 ext=pdf,zip,png,jpg,jpeg,ttf,eot,svg,mp3,woff,woff2,rar,mp4,otf,docx
-removes=ovpn,crdownload,exe,json,xml,html,php,csv,po,mo,xlsx,dot
+removes=py,wpress,docx
 
 pdf_dest=/home/mohammad/PDF
 
