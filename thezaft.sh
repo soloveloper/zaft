@@ -9,7 +9,7 @@ echo "
 ╱╱╰╯╱╰╯╰┻━━╯╰━━━━┻╯╱╰┻╯╱╱╱╱╰╯
 ";
 
-echo "v 0.1 - by soloveloper (AmzMohammad)";
+echo "v 0.1.1 - by AmzMohammad";
 
 echo "CMD : $1"
 echo "DIR : $2";
@@ -28,7 +28,8 @@ then
       var=$exti"_dest";
       cd $2
       #mv -i *."$exti" ${!var}
-      cp -al *."$exti" ${!var} && rm -r *."$exti"
+      yes | cp -rf *."$exti" ${!var}
+      rm -r *."$exti"
    done
 elif [ $1 == "clean"  ]
 then
