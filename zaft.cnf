@@ -1,24 +1,24 @@
 ext=pdf,zip,png,jpg,jpeg,ttf,eot,svg,mp3,woff,woff2,rar,mp4,otf,docx
 removes=py,wpress,docx
 
-pdf_dest=/home/mohammad/PDF
+pdf_dest=/home/amzmohammad/PDF
 
-png_dest=/home/mohammad/Pictures/Images
-jpg_dest=/home/mohammad/Pictures/Images
-jpeg_dest=/home/mohammad/Pictures/Images
-svg_dest=/home/mohammad/Pictures/Images
+png_dest=/home/amzmohammad/Pictures/Images
+jpg_dest=/home/amzmohammad/Pictures/Images
+jpeg_dest=/home/amzmohammad/Pictures/Images
+svg_dest=/home/amzmohammad/Pictures/Images
 
-zip_dest=/home/mohammad/Downloads/ZIP
-rar_dest=/home/mohammad/Downloads/RAR
+zip_dest=/home/amzmohammad/Downloads/ZIP
+rar_dest=/home/amzmohammad/Downloads/RAR
 
-ttf_dest=/home/mohammad/Downloads/Font
-eot_dest=/home/mohammad/Downloads/Font
-woff_dest=/home/mohammad/Downloads/Font
-woff2_dest=/home/mohammad/Downloads/Font
-otf_dest=/home/mohammad/Downloads/Font
+ttf_dest=/home/amzmohammad/Downloads/Font
+eot_dest=/home/amzmohammad/Downloads/Font
+woff_dest=/home/amzmohammad/Downloads/Font
+woff2_dest=/home/amzmohammad/Downloads/Font
+otf_dest=/home/amzmohammad/Downloads/Font
 
-mp3_dest=/home/mohammad/Music
+mp3_dest=/home/amzmohammad/Music
 
-mp4_dest=/home/mohammad/Videos
+mp4_dest=/home/amzmohammad/Videos
 
-docx_dest=/home/mohammad/Downloads/Docx
+docx_dest=/home/amzmohammad/Docx

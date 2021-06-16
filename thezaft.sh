@@ -47,6 +47,11 @@ elif [ $1 == "classify"  ]
 then
    cd $2
    classifier
+else
+   echo "No command chosen!";
+   echo "Help:";
+   echo "arrange";
+   echo "clean";
 fi
 
 
